@@ -10,8 +10,10 @@ Root-->Node(Node)
 	click Node "https://github.com/langnang-temp/node"
 	Node-->NPM_Package("NPM Package")
 		click NPM_Package "https://github.com/langnang-temp/npm-package"
+		NPM_Package-->Vue_UI_Package("Vue UI Package")
+			click Vue_UI_Package https://github.com/langnang-temp/vue-ui-package
 		NPM_Package-->VuePress_Plugin_Package("VuePress Plugin Package")
-		click VuePress_Plugin_Package https://github.com/langnang-temp/vuepress-plugin-package
+			click VuePress_Plugin_Package https://github.com/langnang-temp/vuepress-plugin-package
 	Node-->Vue_UI("Vue UI")
 		click Vue_UI "https://github.com/langnang-temp/vue-ui"
 		Vue_UI-->Vue_Element_UI("Vue Element UI")
