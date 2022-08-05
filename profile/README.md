@@ -8,6 +8,7 @@ Root-->Static("🚀Static")
 	Static-->Static_RequireJS("Static RequireJS")
 	Static-->Static_Bootstrap_UI("Static Bootstrap UI")
 	Static-->Static_jQuery_UI("Static jQuery UI")
+	Static-->Static_Layui("Static Layui")
 Root-->Node("🚀Node")
 	click Node "https://github.com/langnang-temp/node"
 	Node-->NPM_Package("🚀NPM Package")
