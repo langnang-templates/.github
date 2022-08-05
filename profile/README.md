@@ -5,7 +5,9 @@ Root("🚀Root")
 
 Root-->Static("🚀Static")
 	click Static "https://github.com/langnang-temp/static"
-
+	Static_RequireJS("Static RequireJS")
+	Static_Bootstrap_UI("Static Bootstrap UI")
+	Static_jQuery_UI("Static jQuery UI")
 Root-->Node("🚀Node")
 	click Node "https://github.com/langnang-temp/node"
 	Node-->NPM_Package("🚀NPM Package")
@@ -14,6 +16,7 @@ Root-->Node("🚀Node")
 			click Vue_UI_Package "https://github.com/langnang-temp/vue-ui-package"
 		NPM_Package-->VuePress_Plugin_Package("🚀VuePress Plugin Package")
 			click VuePress_Plugin_Package "https://github.com/langnang-temp/vuepress-plugin-package"
+	Node-->Vanilla("Vanilla")
 	Node-->Vue_UI("🚀Vue UI")
 		click Vue_UI "https://github.com/langnang-temp/vue-ui"
 		Vue_UI-->Vue_Element_UI("🚀Vue Element UI")
@@ -22,9 +25,14 @@ Root-->Node("🚀Node")
 		Vue_UI-->Vue_Vant_UI("Vue Vant UI")
 	Node-->VuePress("🚀VuePress")
 		click VuePress "https://github.com/langnang-temp/vuepress"
-	Node-->React(React)
+	Node-->React_UI("React UI")
+		React_UI-->React_Antd_UI("React Antd UI")
+	Node-->React_Native_UI("React Native UI")
 	Node-->Express_Server("🚀Express Server")
 		click Express_Server "https://github.com/langnang-temp/express-server"
+	Node-->Webpack("Webpack")
+	Node-->Rollup("Rollup")
+	Node-->Electron("Electron")
 
 Root-->PHP("🚀PHP")
 	click PHP "https://github.com/langnang-temp/php"
