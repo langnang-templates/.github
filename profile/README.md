@@ -1,11 +1,21 @@
 ```mermaid
 flowchart LR
-Root(langnang-temp/root)
-Root-->Static(langnang-temp/static)
-Root-->Node(langnang-temp/node)
-	Node-->NPM_Packages(langnang-temp/npm-packages)
-	Node-->Vue(langnang-temp/vue)
-	Node-->React(langnang-temp/react)
-	Node-->Express(langnang-temp/express)
-Root-->PHP(langnang-temp/php)
+Root(Root)
+	click Root "https://github.com/langnang-temp/root"
+
+Root-->Static(Static)
+	click Static "https://github.com/langnang-temp/static"
+
+Root-->Node(Node)
+	click Node "https://github.com/langnang-temp/node"
+	Node-->NPM_Package("NPM Package")
+	Node-->Vue(Vue)
+	Node-->VuePress(VuePress)
+	Node-->React(React)
+	Node-->Express(Express)
+
+Root-->PHP(PHP)
+	click PHP "https://github.com/langnang-temp/php"
+	PHP-->Composer_Package("Composer Package")
+	PHP-->PHP_Server("PHP Server")
 ```
