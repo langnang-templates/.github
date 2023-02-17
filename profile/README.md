@@ -42,14 +42,3 @@ Root-->PHP("🚀PHP")
 	PHP-->PHP_Server("🚀PHP Server")
 		click PHP_Server "https://github.com/langnang-temp/php-server"
 ```
-
-```sh
-# add remote url
-git remote set-url --add origin [url]
-# checkout the branch for sync
-git checkout [branch]
-
-git pull
-# force push
-git push -f
-```
