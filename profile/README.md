@@ -43,6 +43,4 @@ Root-->PHP("🚀PHP")
 	click Composer_Package "https://github.com/langnang-temp/composer-package"
 	PHP-->PHP_Server("🚀PHP Server")
 		click PHP_Server "https://github.com/langnang-temp/php-server"
-		
-Root-->AspNetCore("ASP.NET Core")
 ```
