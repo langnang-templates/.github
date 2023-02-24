@@ -24,8 +24,6 @@ Root-->Node("🚀Node")
 			click Vue_Element_UI "https://github.com/langnang-temp/vue-element-ui" _blank
 			Vue_Element_UI-->Vue_Element_Admin("🚀Vue Element Admin")
 				click Vue_Element_Admin "https://github.com/langnang-temp/vue-element-admin/actions" _blank
-			Vue_Element_UI-->Vue_Element_WebStack("🚀Vue Element WebStack")
-				click Vue_Element_WebStack "https://github.com/langnang-temp/vue-element-webstack" _blank
 		Vue_UI-->Vue_Bootstrap_UI("Vue Bootstrap UI")
 		Vue_UI-->Vue_Vant_UI("Vue Vant UI")
 	Node-->VuePress("🚀VuePress")
