@@ -43,4 +43,7 @@ Root-->PHP("🚀PHP")
 	click Composer_Package "https://github.com/langnang-temp/composer-package" _blank
 	PHP-->PHP_Server("🚀PHP Server")
 		click PHP_Server "https://github.com/langnang-temp/php-server" _blank
+	PHP-->Lumen("Lumen")
+	PHP-->Laravel("Laravel")
+	PHP-->Laravel_Modular("Laravel Modular")
 ```
