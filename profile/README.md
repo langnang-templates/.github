@@ -13,19 +13,19 @@ Root-->Node("🚀Node")
 	click Node "https://github.com/langnang-temp/node" _blank
 	Node-->NPM_Package("🚀NPM Package")
 		click NPM_Package "https://github.com/langnang-temp/npm-package" _blank
-		NPM_Package-->Vue_UI_Package("🚀Vue Component Package")
-			click Vue_UI_Package "https://github.com/langnang-temp/vue-ui-package" _blank
+		NPM_Package-->Vue2_UI_Package("🚀Vue Component Package")
+			click Vue2_UI_Package "https://github.com/langnang-temp/vue-ui-package" _blank
 		NPM_Package-->VuePress_Plugin_Package("🚀VuePress Plugin Package")
 			click VuePress_Plugin_Package "https://github.com/langnang-temp/vuepress-plugin-package" _blank
 	Node-->Vanilla("Vanilla")
-	Node-->Vue_UI("🚀Vue UI")
-		click Vue_UI "https://github.com/langnang-temp/vue-ui" _blank
-		Vue_UI-->Vue_Element_UI("🚀Vue Element UI")
+	Node-->Vue2_UI("🚀Vue@2 UI")
+		click Vue2_UI "https://github.com/langnang-temp/vue-ui" _blank
+		Vue2_UI-->Vue_Element_UI("🚀Vue Element UI")
 			click Vue_Element_UI "https://github.com/langnang-temp/vue-element-ui" _blank
 			Vue_Element_UI-->Vue_Element_Admin("🚀Vue Element Admin")
 				click Vue_Element_Admin "https://github.com/langnang-temp/vue-element-admin/actions" _blank
-		Vue_UI-->Vue_Bootstrap_UI("Vue Bootstrap UI")
-		Vue_UI-->Vue_Vant_UI("Vue Vant UI")
+		Vue2_UI-->Vue_Bootstrap_UI("Vue Bootstrap UI")
+		Vue2_UI-->Vue_Vant_UI("Vue Vant UI")
 	Node-->VuePress("🚀VuePress")
 		click VuePress "https://github.com/langnang-temp/vuepress" _blank
 	Node-->React_UI("React UI")
