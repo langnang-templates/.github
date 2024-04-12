@@ -36,6 +36,7 @@ Root-->Node("🚀Node")
 	Node-->Webpack("Webpack")
 	Node-->Rollup("Rollup")
 	Node-->Electron("Electron")
+	Node-->Uni_App("Uni App")
 
 Root-->PHP("🚀PHP")
 	click PHP "https://github.com/langnang-temp/php" _blank
